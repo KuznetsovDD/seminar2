@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* box-sizing: border-box; */
+}
+
+
+body {
+	background-color: rgb(131, 127, 146);
+}
+
+.title {
+	color: rgb(48, 201, 86);
+	text-align: center;
+}
+header {
+	width: 100%;
+	background-color: aquamarine;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	
+}
+
+.nav-link {
+	width: 100px;
+	height: 40px;
+	color: aliceblue;
+	background-color: blueviolet;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 20px;
+	border: 1px solid transparent;
+}
+
+.nav {
+	margin-top: 50px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.nav-link:hover {
+	background-color: aliceblue;
+	border: 1px solid darkorchid;
+	color: blueviolet;
+}
+
+.item-sec {
+	margin-top: 100px;
+}
+
+.item {
+	background-color: bisque;
+	display: block;
+	width: 263px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.item-pic {
+	width: 100%;
+	text-align: center;
+}
+
+.text-desc {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	text-transform: uppercase;
+	
+}
+
+.text_box {
+	padding: 10px;
+}
+
+.item-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.item:hover .txt-box{
+	background-color: blueviolet;
+	color: white;
+}
+
+.item:hover .text-desc {
+	color: azure;
+}
+.product-pic {
+	width: 700px;
+	margin-top: 50px;
+		
+}
+
+
+.product-desc {
+	text-align: center;
+	background-color: blueviolet;
+
+}
+
+.big-images {
+	width: 2px;
+	text-align: center;
+	color: blue;
+	
+	
+	
+}
+.txt-box2 {
+	display: block;
+	margin-bottom: 30px;
+	text-decoration: none;
+	text-align: center;
+	
+}
